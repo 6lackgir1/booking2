@@ -1,0 +1,62 @@
+@import "fonts.css";
+
+.content-conteyner{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1408px;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 24px;
+    margin-top: 56px;
+}
+
+.navbar__img-logo{
+    margin-left: 67px;
+    width: 70.26px;
+    height: 65.1px;
+    margin-top: -49px;
+}
+
+.navbar__menu-list{
+    display: flex;
+    justify-content: space-between;
+    width: 597px;
+    height: 24px;
+    margin-top: -26px;
+    margin-left: 55px;
+}
+
+.navbar__menu-item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    list-style-type: none;
+    text-transform: uppercase; /*все буквы становятся заглавными*/
+}
+
+.navbar__img-denmark{
+    position: relative;
+    margin-left: -100px;
+    top: -28px;
+}
+
+.navbar__btn-booking{
+    background: #5B6460;
+    color: #ffffff;
+    width: 198px;
+    height: 37px;
+    margin-right: 32px;
+    margin-top: -46px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 21px;
+    text-transform: uppercase;
+}
