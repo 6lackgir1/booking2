@@ -109,3 +109,35 @@
         opacity: 1
     }
 }
+
+@media only screen and (max-width: 780px) {
+    .slider, .sliderImg, .sliderText {
+        width: 99%;
+    }
+
+    .sliderImg {
+        height: 500px;
+    }
+
+    .slider-header {
+        width: 99%;
+        font-size: 50px;
+        margin-top: 140px;
+    }
+
+    .slider-description {
+        width: 99%;
+        left: 55px;
+    }
+
+    .prev {
+        top: 65%;
+        left: 40%;
+    }
+
+    .next {
+        top: 65%;
+        right: 40%;
+    }
+
+}

@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Booking</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/global.css">
@@ -11,6 +12,11 @@
 <header>
     <div class="content-conteyner">
         <div class="navbar">
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox">
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
             <img src="img/logo.png" class="navbar__img-logo" width="71" height="66" alt="The glass huts">
             <ul class="navbar__menu-list">
                 <li class="navbar__menu-item">home</li>
@@ -20,6 +26,7 @@
                 <li class="navbar__menu-item">about us</li>
                 <li class="navbar__menu-item">faq</li>
             </ul>
+            </div>
             <img src="img/denmark.png" class="navbar__img-denmark" width="25" height="25" alt="denmark">
             <a href="#" class="navbar__btn-booking">booking now</a>
         </div>
@@ -209,6 +216,8 @@
     <input type="email" class="form-email__input" value="Email Adrdess">
     <input type="button" class="form-email__btn" value="→">
 </div>
+
+
 
 <script src="js/swipper.js"></script>
 </body>

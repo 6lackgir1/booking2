@@ -342,3 +342,46 @@ margin-top: 150px;
 
 
 
+@media only screen and (max-width: 780px) {
+
+    .btn-price {
+        margin-top: -200px;
+        margin-left: -66px;
+    }
+
+    .cabins__content-position {
+        flex-direction: column-reverse;
+        margin-right: 35px;
+    }
+
+    h3.cabins-head{
+        position: relative;
+        left: 294px;
+        top: 0;
+    }
+
+    .cabins__content-contayner{
+        margin-left: 50px;
+    }
+
+    .cabins__content{
+        left: -118px;
+        text-align: center;
+    }
+
+    .btn-read{
+        left: 77px;
+    }
+
+    .img-cabins{
+        flex-direction: column;
+        align-items: center;
+    }
+    .scale:hover{
+        transform: scale(0);
+    }
+    .scale{
+        width: 704px;
+        height: 630px;
+    }
+}
